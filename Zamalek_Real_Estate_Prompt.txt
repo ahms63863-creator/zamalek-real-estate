@@ -1,0 +1,58 @@
+ZAMALEK REAL ESTATE — PREMIUM WEBSITE
+
+Build a premium English-only real estate website for “Zamalek Real Estate” using Next.js 14 App Router, TypeScript and Tailwind CSS.
+
+DESIGN
+- Minimal luxury, modern and completely different from generic real-estate templates.
+- Deep Navy #0F172A as primary.
+- Warm Gold #D4AF37 for prices and accents.
+- Off-White #FAFAFA background.
+- Charcoal #374151 text.
+- Generous whitespace, sharp geometry and subtle shadows.
+- No orange or green.
+- Mobile-first and fully responsive: 1 column mobile, 2 tablet, 3 desktop, 4 large screens.
+- Hero must prominently show “Zamalek Real Estate”.
+
+PAGES
+1. Homepage:
+   - Cinematic hero.
+   - Search bar: Location, Property Type, Price Range, Beds.
+   - Featured listings sorted by newest.
+   - Premium property cards.
+
+2. Listings /listings:
+   - Filters: Purpose, Property Type, Location, Price, Currency, Beds, Baths, Area.
+   - Sort: Newest, Price Low to High, Price High to Low, Area.
+   - Pagination or infinite scroll.
+
+3. Property Detail /property/:id:
+   - Image gallery with lightbox.
+   - Full property specifications.
+   - Location/map section.
+   - Agent card for Mr Alex with placeholder avatar.
+   - Sticky mobile Call and WhatsApp buttons.
+   - Call: tel:+20XXXXXXXXXX
+   - WhatsApp: https://wa.me/20XXXXXXXXXX with a pre-filled message containing the property ID and title.
+
+4. Contact:
+   - Contact form.
+   - Direct phone and WhatsApp links.
+
+PROPERTY DATA
+Seed all 24 properties exactly as provided in the original specification, preserving every ID, title, location, beds, baths, area, price, currency and date. All listings belong to Mr Alex.
+Do not convert USD to EGP or EGP to USD.
+Do not change the original listing data.
+
+The 24 IDs are:
+5905, 5923, 5922, 5917, 5916, 5915, 5913, 5912, 5911, 5910, 5907, 5906, 5903, 5901, 5900,
+5921, 5920, 5919, 5918, 5899,
+5909, 5908, 5904, 5902.
+
+QUALITY
+- Use reusable components and clean project structure.
+- Semantic HTML and accessibility.
+- SEO-friendly metadata for every page.
+- Fast loading and optimized images.
+- English only.
+- Make navigation, filters, property cards and property detail links functional.
+- Final project must run with npm install and npm run build and be ready to deploy on Vercel.
